@@ -1,0 +1,25 @@
+numpy==1.23.5
+pandas==1.5.3
+matplotlib==3.7.1
+seaborn==0.12.2
+opencv-python==4.8.0.76
+scikit-learn==1.3.0
+tensorflow==2.12.0
+keras==2.12.0
+Pillow==9.5.0
+tqdm==4.66.1
+jupyter==1.0.0
+notebook==7.0.6
+📦 Install Dependencies
+
+Run this command to install all packages:
+
+pip install -r requirements.txt
+
+📌 Alternative (Auto-Generate Requirements)
+
+If you want to generate requirements automatically from your environment:
+
+pip freeze > requirements.txt
+
+But this often includes many unnecessary libraries, so the manual file above is usually cleaner for GitHub.
